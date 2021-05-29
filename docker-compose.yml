@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  load-balancer:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 80
+    volumes:
+      - .:/app
+    ports:
+      - 80:80
