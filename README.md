@@ -8,7 +8,7 @@ This repository aims to create a load balancer using python, it is an exercise i
 
 You will need to have docker and docker-compose installed in your machine.
 
-After that cloning, run the following commands in the root of the repository:
+After cloning, run the following commands in the root of the repository:
 
     docker-compose build
 
