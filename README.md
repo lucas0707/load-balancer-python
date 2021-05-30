@@ -1,4 +1,4 @@
-# Load Balancer Protorype
+# Load Balancer Prototype
 
 A load balancer is essential for all applications that aim to scale. When you have thousands of requests per second you need to distribute them between your instances in the most efficient way possible.
 
@@ -25,7 +25,7 @@ To use it is simple, there are two routes available:
     POST -> http://localhost:80
     GET -> http://localhost:80
 
-The post will send a call to be distributed between the available workers and the get will get a summary of how many calls have been sent and how they have been distributed.
+The post will send a call to be distributed between the available workers and the get will return a summary of how many calls have been sent and distributed.
 
 ## Load testing
 
